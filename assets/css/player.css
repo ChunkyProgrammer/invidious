@@ -168,7 +168,9 @@ ul.vjs-menu-content::-webkit-scrollbar {
 }
 
 .video-js .vjs-slider:hover,
-.video-js button:hover {
+.video-js button:hover,
+.video-js .vjs-slider:focus,
+.video-js button:focus {
   color: rgba(0, 182, 240, 1);
 }
 
