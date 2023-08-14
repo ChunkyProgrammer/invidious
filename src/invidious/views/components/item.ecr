@@ -21,7 +21,7 @@
             <div class="video-card-row flexible">
                 <div class="flex-left"><a href="/channel/<%= item.ucid %>">
                     <p class="channel-name" dir="auto"><%= HTML.escape(item.author) %>
-                        <%- if author_verified %>&nbsp;<i class="icon ion ion-md-checkmark-circle"></i><% end -%>
+                        <%- if author_verified %>&nbsp;<i title="<%= translate(locale, "Verified") %>" class="icon ion ion-md-checkmark-circle"></i><% end -%>
                     </p>
                 </a></div>
             </div>
@@ -59,7 +59,7 @@
             <div class="video-card-row flexible">
                 <div class="flex-left"><a href="/channel/<%= item.ucid %>">
                     <p class="channel-name" dir="auto"><%= HTML.escape(item.author) %>
-                        <%- if author_verified %>&nbsp;<i class="icon ion ion-md-checkmark-circle"></i><% end -%>
+                        <%- if author_verified %>&nbsp;<i title="<%= translate(locale, "Verified") %>" class="icon ion ion-md-checkmark-circle"></i><% end -%>
                     </p>
                 </a></div>
             </div>
@@ -137,7 +137,7 @@
             <div class="video-card-row flexible">
                 <div class="flex-left"><a href="/channel/<%= item.ucid %>">
                     <p class="channel-name" dir="auto"><%= HTML.escape(item.author) %>
-                        <%- if author_verified %>&nbsp;<i class="icon ion ion-md-checkmark-circle"></i><% end -%>
+                        <%- if author_verified %>&nbsp;<i title="<%= translate(locale, "Verified") %>" class="icon ion ion-md-checkmark-circle"></i><% end -%>
                     </p>
                 </a></div>
 
